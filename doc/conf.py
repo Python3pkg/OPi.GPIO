@@ -66,7 +66,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'OPi.GPIO: Orange Pi Zero RPi.GPIO compatibility library'
 author = 'Richard Hull and contributors'
-copyright = u'{0}, {1}'.format(datetime.now().year, author)
+copyright = '{0}, {1}'.format(datetime.now().year, author)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -45,7 +45,7 @@ def test_input(fs, test_input, expected):
     fs.CreateFile("/sys/class/gpio/gpio0/value")
     with open("/sys/class/gpio/gpio0/value", "w") as fp:
         fp.write("{0}\n".format(test_input))
-    assert input(0) == expected
+    assert eval(input(0)) == expected
 
 
 @pytest.mark.parametrize("test_input,expected", [
